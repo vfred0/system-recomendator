@@ -1,0 +1,33 @@
+@@startuml 'System recomendator'
+class SystemRecomendator {
+  apiSpotify: ApiSpotify
+
+  interact()
+
+}
+
+class ApiSpotify {
+  redirect_url: string
+  credentials: CREDENTIALS
+} 
+
+enum CREDENTIALS {
+  CLIENT_ID,
+  CLIENT_SECRET,
+  USERNAME
+}
+
+enum MESSAGES {
+  CLIENT_ID,
+  CLIENT_SECRET,
+  USERNAME
+}
+
+
+SystemRecomendator *--> ApiSpotify
+ApiSpotify *--> CREDENTIALS
+ApiSpotify ..> MESSAGES
+ApiSpotify ..> Console 
+
+
+@@enduml
