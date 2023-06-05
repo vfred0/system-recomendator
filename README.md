@@ -18,7 +18,7 @@ python SystemRecommendation.py
 ```
 
 ## Resultados
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d4zy-eJJvsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Sistema de recomendación de canciones usando Spotify](https://th.bing.com/th/id/OIP.3ObclYik2eP73oGsRZplLAHaEK?pid=ImgDet&rs=1)](https://www.youtube.com/watch?v=d4zy-eJJvsA "Sistema de recomendación de canciones usando Spotify")
 
 
 ## Referencias
